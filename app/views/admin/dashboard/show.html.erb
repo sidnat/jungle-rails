@@ -1,24 +1,28 @@
-<br>
-<h1>Admin Dashboard</h1>
-<br>
+<section class="admin-products-index">
 
-<div class="panel panel-default items">
-  <table class="table table-bordered">
-    <thead>
-      <tr>
-        <th>Number of product categories</th>
-        <th>Number of unique products</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <%= @category_amount %>
-        </td>
-        <td>
-          <%= @product_amount %>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+  <header class="page-header">
+    <h1>Admin &raquo; Dashboard</h1>
+  </header>
+
+  <div class="panel panel-default items">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Number of product categories</th>
+          <th>Number of unique products</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <%= @category_amount %>
+          </td>
+          <td>
+            <%= @product_amount %>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  </section>
